@@ -1,0 +1,294 @@
+/* Letters */
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap'); /*H1 how i am?*/
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap'); /*Dilem*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /*Text About Me*/
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+
+/* ##################################################### */
+
+body{
+    margin:auto;
+}
+
+li{
+    list-style: none;
+}
+
+/*Background first*/
+/* .background{
+    background-image: url(../img/background_2.jpg);
+    background-position: center;
+    background-size: cover;
+} */
+/* ##################################################### */
+/* Autor */
+.autor{
+    position: relative;
+    font-size: 1.7em;
+    letter-spacing: 3pt;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Cinzel', serif;
+    width: 420px;
+    height: 28px;
+    z-index: 100;
+    margin-left: 15px;
+    top: -5px;
+    color: white;
+}
+
+.autor::first-letter{
+    font-size: 40px;
+}
+
+.autor i{
+    margin-left: 12px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; /*Trazo, sombra del texto*/
+}
+
+/* ##################################################### */
+/* Dilema */
+.dilem{
+    /* background-color: red; */
+    width: 200px;
+    color: grey;
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Castoro', serif;
+    font-size: 15px;
+    letter-spacing: 1.2pt;
+    margin-left: 150px;
+    margin-top: -10px;
+    
+}
+
+/* ##################################################### */
+/* NavBar */
+.main-navbar{
+    position: relative;
+    background: none;
+    text-align: right;
+    margin-top: -75px;
+    margin-left: 2px;
+    height: 42px;
+    /* border-radius: 30px;
+    border-style: groove;
+    border-color: rgba(0, 255, 255, 0.788); */
+    /* border: 1px solid cyan; */
+}
+
+.main-navbar ul li{
+    /* background: brown; */
+    display: inline; /* Elementos de LI en horizontal */
+    position: relative;
+    top: 10px;
+    margin-right: 3em; /*Espaciado entre items*/
+
+    /* text-decoration-line: underline; SUBRAYADO */
+    
+}
+
+/* ############### SOCIAL NETWORKS ############### */
+.main-navbar__social--ig{
+    color:#c13584;
+}
+
+.main-navbar__social--ig:hover{
+    color:#ff49b0;
+}
+
+.main-navbar__social--fb{
+    color: #3b5998;
+}
+
+.main-navbar__social--fb:HOVER{
+    color: #6293fc;
+}
+
+.main-navbar__social--lk{
+    color: #0e76a8 ;
+}
+
+.main-navbar__social--lk:hover{
+    color: #15b5ff ;
+}
+
+.main-navbar__social--wp{
+    color: #25d366;
+}
+
+.main-navbar__social--wp:hover{
+    color: #2cff79;
+}
+
+.main-navbar ul li a{
+    position: relative;
+    font-size: 1.5em;
+    font-family: 'Sansita Swashed', cursive;
+    letter-spacing: 2pt;
+    text-decoration: none;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; /*Trazo, sombra del texto*/
+    text-decoration-line: underline;
+}
+
+.main-navbar ul li a i{
+    margin-right: 10px;
+}
+
+/* ##################################################### */
+/* NAV BORDER */
+.nav-border{
+    position: cenbt;
+    width: 40em;
+    height: 0px;
+    background: none;
+    margin-top: 20px; /*auto*/
+    margin-right: auto; /*centrado*/
+    margin-left: auto; /*centrado*/
+    border: 1px solid rgba(155, 156, 156, 0.178);
+}
+
+/* ##################################################### */
+/* Box Title - Title - Text */
+.box-title{
+    position: relative;
+    /* background-color: rgba(182, 181, 181, 0.123); */
+    /* text-align: center; */
+    width: 60em;
+    height: 120px;
+    margin: -100px auto auto auto;
+    top: 10em;
+    padding: 1.5px;
+    /* border-radius: 20px; */
+    /* border: 2px outset rgba(0, 255, 255, 0.671); dashed style */
+    transition: transform .2s; /* Animation */
+}
+
+.box-title:hover{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/*h1 About Me*/
+.title-h1{
+    position: relative;
+    font-family: 'Noto Serif', serif;
+    font-size: 3.0em;
+    color: white;
+    letter-spacing: 4pt;
+    text-align: center; /*center*/
+    padding-left: 15px;
+    top: -35px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+}
+
+/*TEXT ABOUT ME*/
+.box-title p{
+    color: white;
+    /* text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; */
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px; /*Interlineado*/
+    margin-top: -55px;
+    margin-left: 15px;
+}
+
+.box-title p strong{
+    color: #51d1f6;
+}
+
+/* ##################################################### */
+/*Portfolio*/
+.portfolio-container{
+    display: flex; /*inline*/
+    flex-wrap: wrap;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.041);
+    justify-content: center;
+    margin-top: 190px;
+}
+
+.item{
+    /* width: 330px; */
+    background-color: rgba(255, 255, 255, 0.205);
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0px 2px rgb(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.item:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
+}
+
+.item img{
+    width: 440px;
+    height: 250px;
+}
+
+.item h3{
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    letter-spacing: 2pt;
+}
+
+.item p{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 1rem;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    color: white;
+   
+}
+
+.item a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #266894;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item a:hover{
+    color: #a01800;
+    font-size: 18px;
+}
+
+/* #########################FOOTER############################*/
+/* ##################################################### */
+/*Contact*/
+.contact{
+    /* display: block; */
+    position: fixed;
+    /* float: right; Flotante a la derecha */
+    background: #62182a;
+    height: 50px;
+    width: 50px;
+    margin-top: 7.4em;
+    margin-left: 116.5em;
+    /* margin-right: 4px; */
+    border: 1px solid white ;
+    border-radius: 3.5px;
+    transition: transform .2s; /* Animation */
+}
+
+.contact:hover{
+    background: #8b223d;
+    border: 1px solid white ;
+    transform: scale(1.1);
+}
+
+.contact a{
+    display: block;
+    position: relative;
+    color: white;
+    margin: 5px 5px;
+    font-size: 40px;
+}
